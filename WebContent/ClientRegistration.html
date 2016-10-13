@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Client Registration</title>
+</head>
+<body bgcolor="#FDF5E6">
+<center>
+<h1>Client Registration</h1>
+<form action="ClientRegistration" method="POST">
+<table>
+<tr><td>ID</td><td><input type="text" name="client_id" required></td></tr>
+<tr><td>Email</td><td><input type="text" name="client_email" required></td></tr>
+<tr><td>Password</td><td><input type="password" name="client_pwd" required></td></tr>
+<tr><td>Confirm Password</td><td> <input type="password" name="client_confirmed_pwd" required></td></tr>
+</table>
+<hr>
+<br>
+<table>
+<tr><th></th><th>Day</th><th>Time</th></tr>
+<tr><td>Time for reminders/tips</td>
+<td><select name="nutrition_tip_day">
+	<option value="sun">Sun</option>
+	<option value="mon">Mon</option>
+	<option value="tue">Tue</option>
+	<option value="wed">Wed</option>
+	<option value="thu">Thu</option>
+	<option value="fri">Fri</option>
+	<option value="sat">Sat</option>
+	</select>
+	</td>
+<td><select name="nutrition_tip_time">
+	<option value="7:00am">7:00am</option>
+	<option value="8:00am">8:00am</option>
+	<option value="9:00am">9:00am</option>
+	<option value="10:00am">10:00am</option>
+	<option value="11:00am">11:00am</option>
+	<option value="12:00pm">12:00pm</option>
+	<option value="1:00pm">1:00pm</option>
+	<option value="2:00pm">2:00pm</option>
+	<option value="3:00pm">3:00pm</option>
+	<option value="4:00pm">4:00pm</option>
+	<option value="5:00pm">5:00pm</option>
+	<option value="6:00pm">6:00pm</option>
+	<option value="7:00pm">7:00pm</option>
+	<option value="8:00pm">8:00pm</option>
+	<option value="9:00pm">9:00pm</option>
+	<option value="10:00pm">10:00pm</option>
+	<option value="11:00pm">11:00pm</option>
+	<option value="12:00am">12:00am</option>
+</select>
+</td>
+</tr>
+<tr><td>Time for daily caloric summary</td>
+<td>
+</td>
+<td><select name="caloric_summary_time">
+	<option value="7:00am">7:00am</option>
+	<option value="8:00am">8:00am</option>
+	<option value="9:00am">9:00am</option>
+	<option value="10:00am">10:00am</option>
+	<option value="11:00am">11:00am</option>
+	<option value="12:00pm">12:00pm</option>
+	<option value="1:00pm">1:00pm</option>
+	<option value="2:00pm">2:00pm</option>
+	<option value="3:00pm">3:00pm</option>
+	<option value="4:00pm">4:00pm</option>
+	<option value="5:00pm">5:00pm</option>
+	<option value="6:00pm">6:00pm</option>
+	<option value="7:00pm">7:00pm</option>
+	<option value="8:00pm">8:00pm</option>
+	<option value="9:00pm">9:00pm</option>
+	<option value="10:00pm">10:00pm</option>
+	<option value="11:00pm">11:00pm</option>
+	<option value="12:00am">12:00am</option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" name="Register" value="Register">
+<input type="reset"  name="Reset" value="Reset">
+</form>
+</center>
+<hr>
+</body>
+</html>
