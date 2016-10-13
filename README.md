@@ -1,5 +1,6 @@
-# PNUTS
-A Cloud-Based Infrastructure for Caloric Intake Estimation from Pre-Meal Videos and Post-Meal Plate Waste Pictures
+# PNUTS - A Cloud-Based Infrastructure for Caloric Intake Estimation from Pre-Meal Videos and Post-Meal Plate Waste Pictures
+
+http://worldcomp-proceedings.com/proc/p2015/HIM3412.pdf
 
 Accurate caloric intake estimation is an open
 research problem in health informatics, dietetics, and nutrition
